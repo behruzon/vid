@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 500px;
+    width: 900px;
+    margin: 20px auto;
+    border: solid 3px red;
+    background: white;
+    position: relative;
+    
+}
+
+.elem { 
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+    
+}
+
+.elem.one {
+    top: 60px;
+    left: 40px;
+}
+
+.elem.two {
+    top: 180px;
+    left: 140px;
+    background: red;
+}
+
+.elem.three {
+    top: 300px;
+    left: 240px;
+    background: blue;
+}
+
+
+
+.box_2 {
+    height: 300px;
+    width: 900px;
+    margin: 50px auto;
+    border: solid 3px red;
+    background: white;
+    position: relative;
+}
+
+.item { 
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+}
+
+.item.one {
+    top: 100px;
+    left: 80px;
+}
+
+.item.two {
+    top: 100px;
+    left: 250px;
+    background: red;
+}
+
+.item.three {
+    top: 100px;
+    left: 420px;
+    background: blue;
+}
+
+.box_3 {
+    height: 400px;
+    width: 900px;
+    margin: 50px auto;
+    border: solid 3px red;
+    background: white;
+    position: relative;
+}
+
+.column { 
+    width: 100px;
+    height: 100px;
+    background: green;
+    position: absolute;
+}
+
+
+.column.one {
+    top: 40px;
+    left: 60px;
+}
+
+.column.two {
+    top: 100px;
+    left: 120px;
+    background: red;
+}
+
+.column.three {
+    top: 160px;
+    left: 180px;
+    background: blue;
+}
+
+
+.box_4 {
+    height: 445px;
+    width: 300px;
+    margin: 50px auto;
+    border: solid 3px red;
+    background: white;
+    position: relative;
+}
+
+.traffic_light { 
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+.traffic_light.one {
+    top: 45px;
+    left: 90px;
+}
+
+.traffic_light.two {
+    top: 160px;
+    left: 90px;
+    background: yellow;
+}
+
+.traffic_light.three {
+    top: 275px;
+    left: 90px;
+    background: green;
+}
+
+.box_5 {
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    background: lightgreen;
+    position: relative;
+    border-radius: 50%;
+}
+
+.smiley { 
+    width: 75px;
+    height: 75px;
+    position: absolute;
+}
+
+
+.smiley.one {
+    top: 100px;
+    left: 290px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.smiley.two {
+    top: 100px;
+    left: 90px;
+    background: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.smiley.three {
+    top: 250px;
+    left: 200px;
+    background: white;
+}
+.smiley.for {
+    bottom: 70px;
+    left: 155px;
+    background: white;
+    width: 180px;
+    height: 20px;
+}
+
